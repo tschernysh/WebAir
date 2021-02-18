@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/bebasneuebold.ttf'
+import './fonts/bebasneueregular.ttf'
 
 ReactDOM.render(
   <React.StrictMode>
