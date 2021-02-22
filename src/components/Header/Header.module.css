@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    justify-content: space-around;
+}
+header a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 68px;
+}
