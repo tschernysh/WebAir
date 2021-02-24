@@ -14,25 +14,25 @@ const Reviews = () => {
         </div>
         <div className={R.content}>
             <div className={R.switch1}>
-                <img className={R.Reviews_Switch_1} src={Reviews_Switch_1}/>
+                <img src={Reviews_Switch_1}/>
             </div>
             <div className={R.element_Konstantin}>
-                <img className={R.Reviews_Konstantin} src={Reviews_Konstantin}/>
+                <img src={Reviews_Konstantin}/>
                 <div className={R.Reviews_text_1}>КОНСТАНТИН <br></br>СВАДЕБНЫЙ ФОТОГРАФ</div>
                 <div className={R.Reviews_description_1}>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
             </div>
             <div className={R.element_Anna}>
-                <img className={R.Reviews_Anna} src={Reviews_Anna}/>
+                <img src={Reviews_Anna}/>
                 <div className={R.Reviews_text_2}>АННА <br></br>TOP МЕНЕДЖЕР ФИРМЫ "NEGIX"</div>
                 <div className={R.Reviews_description_2}>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
             </div>
             <div className={R.element_Tom}>
-                <img className={R.Reviews_Tom} src={Reviews_Tom}/>
+                <img src={Reviews_Tom}/>
                 <div className={R.Reviews_text_3}>ТОМАС <br></br>ГРАФИЧЕСКИЙ ДИЗАЙНЕР</div>
                 <div className={R.Reviews_description_3}>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
             </div>
             <div className={R.switch2}>
-                <img className={R.Reviews_Switch_2} src={Reviews_Switch_2}/>
+                <img src={Reviews_Switch_2}/>
             </div>
         </div>
     </section>
