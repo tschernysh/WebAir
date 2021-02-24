@@ -5,7 +5,6 @@ import Reviews_Anna from '../image/Reviews_Anna.png';
 import Reviews_Tom from '../image/Reviews_Tom.png';
 import Reviews_Switch_1 from '../image/Reviews_Switch_1.png';
 import Reviews_Switch_2 from '../image/Reviews_Switch_2.png';
-import O from "../Offers/Offers.module.css";
 
 const Reviews = () => {
     return <section className={R.Reviews}>
