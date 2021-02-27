@@ -1,0 +1,52 @@
+.Reviews {
+    background-color: #01A4BD;
+}
+
+.Reviews_text {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 500px;
+
+}
+
+.element_Konstantin, .element_Anna, .element_Tom {
+    margin: 20px;
+    position	: relative;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 14px;
+    width: 212px;
+}
+
+.switch1, .switch2 {
+    margin-top: 1%;
+}
+
+.Reviews_text_1, .Reviews_text_2, .Reviews_text_3 {
+    top: 245px;
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    background: rgba(1, 164, 189, 0.7);
+    width: 180px;
+    height: 52px;
+    padding-top: 10px;
+}
+
+.Reviews_description_1, .Reviews_description_2, .Reviews_description_3 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+}
