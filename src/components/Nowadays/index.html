@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+</head>
+<body>
+    
+
+
+    <div class="widget__block" style="text-align: center; position: fixed; display: flex; flex-direction: column-reverse; padding: 20px; top: 30px; left: 30px;">
+        <div class="main__widget" style="cursor: pointer; box-sizing: border-box; padding: 19px; background-color: rgb(233, 1, 1); color: rgb(255, 255, 255); border-radius: 50%; box-shadow: rgba(0, 0, 0, 0.26) 2px 2px 2px; animation: 5s ease 0s infinite normal none running pulsating; width: 85.5px; height: 85.5px;">
+            <div class="widget__icon">
+                <i style="text-align: center; font-size: 47.5px; color: rgb(0, 0, 0);" class="far fa-comment-alt" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="add__buttons" style="display: flex; flex-direction: column; position: absolute; top: 114px;">
+        <a id="555" class="add__widget" style="box-sizing: border-box; cursor: pointer; padding: 19px; background: rgb(43, 167, 230); color: rgb(255, 255, 255); border-radius: 50%; width: 85.5px; height: 85.5px;" href="google.com" target="_blank">
+            <div class="widget__icon_add" style="color: rgb(0, 0, 0);">
+                
+            <div class="button__name" style="display: none;">Telegram</div>
+            <i class="fab fa-telegram-plane" aria-hidden="true" style="font-size: 47.5px;"></i>
+        
+            </div>
+        </a></div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script>$('<style>@keyframes pulsating{0%{box-shadow: 0 0 0 #e90101;}50%{box-shadow: 0 0 20px #e90101;}100%{box-shadow: 0 0 0px #e90101;}}<style>').appendTo('head'); $('.add__buttons').fadeToggle();$('.main__widget').on('click',function(){$('.add__buttons').fadeToggle(500)}) </script>
+    <script>$(`head`).append('<script src="https://kit.fontawesome.com/f47a5f8a7f.js" crossorigin="anonymous"><\/script>')</script>
+</body>
+</html>
