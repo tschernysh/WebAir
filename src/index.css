@@ -8,21 +8,15 @@
 }
 body {
   margin: 0;
-<<<<<<< HEAD
   padding: 0;
-=======
->>>>>>> sasha-work
   font-family: BebasNeue;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-<<<<<<< HEAD
 *{
   box-sizing: border-box;
 }
-=======
->>>>>>> sasha-work
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
