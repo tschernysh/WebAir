@@ -36,6 +36,12 @@ p2 {
     justify-content: center;
 }
 
+.Nowadays_column_1,
+.Nowadays_column_2,
+.Nowadays_element_2 {
+    position: relative;
+}
+
 .Nowadays_img1 {
     position	: relative;
     margin-right: 30px;
@@ -47,7 +53,7 @@ p2 {
     font-size: 144px;
     line-height: 144px;
     text-align: center;
-    top: 1290px;
+    bottom: 0;
     width: 250px;
     color: #FFFFFF;
     background: rgba(1, 164, 189, 0.7);
@@ -63,12 +69,15 @@ p2 {
     font-size: 110px;
     line-height: 110px;
     font-weight: bold;
-    top: 910px;
+    top: 0;
     height: 275px;
     position: absolute;
     color: #FFFFFF;
     background: rgba(1, 164, 189, 0.7);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .Nowadays_img3 {
@@ -78,15 +87,20 @@ p2 {
 
 .Nowadays_text3 {
     position: absolute;
-    top: 1222px;
-    color: #FFFFFF;
+    top: 0;
+    color: #FFF;
     background: rgba(1, 164, 189, 0.7);
     text-align: center;
     font-size: 96px;
     line-height: 123px;
     font-weight: bold;
     width: 210px;
-    right: 642px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 98.5%;
+    justify-content: center;
 
 }
 

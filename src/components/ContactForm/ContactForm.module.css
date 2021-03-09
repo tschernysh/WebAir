@@ -1,0 +1,84 @@
+.contact__block{
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+    background-color: #E5E5E5;
+    justify-content: space-around;
+}
+.contact__text{
+    font-weight: 700;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.contact__text_top {
+    font-size: 128px;
+    line-height: 128px;
+    text-align: center;
+    width: 500px;
+}
+.contact__text_bot {
+    font-size: 24px;
+    color:  #01A4BD;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+.contact__form{
+    width: 50%;
+    padding-top: 55px;
+}
+.contact__input_piece,
+.contact__input_textarea{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 33px;
+
+}
+.contact__input_piece div,
+.contact__input_textarea div{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+.contact__input_textarea{
+    align-items: flex-start;
+}
+.contact__input_textarea div{
+    margin-top: 20px;
+}
+.contact__input_piece input{
+    font-size: 36px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 15px 25px;
+    width: 80%;
+}
+.contact__input_textarea textarea{
+    font-size: 36px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 15px 25px;
+    height: 200px;
+    width: 80%;
+    resize: none;
+}
+.contact__input_submit{
+    text-align: right;
+}
+.contact__input_submit input{
+    font-size: 20px;
+    padding: 9px 22px;
+    background-color: #FF0000;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-family: BebasNeue;
+}

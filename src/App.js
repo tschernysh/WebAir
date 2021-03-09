@@ -5,6 +5,7 @@ import logo from './logo.svg';
 import Offers from "./components/Offers/Offers";
 import Reviews from "./components/Reviews/Reviews";
 import Nowadays from "./components/Nowadays/Nowadays";
+import ContactForm from "./components/ContactForm/ContactForm";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Offers/>
       <Nowadays/>
       <Reviews/>
+      <ContactForm />
 
     </div>
   );

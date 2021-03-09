@@ -10,7 +10,7 @@ const Main = () => {
 
 
             <div className={s.main__background}>
-                <img src={mainBg} />
+                <img draggable='false' src={mainBg} />
             </div>
 
             <div className={s.main__content}>
